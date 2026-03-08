@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #a82d49;
+  --primary-hover: #8f263d;
+  --text-dark: #333;
+  --text-light: #fff;
+  --bg-light: #f9f9f9;
+  --transition: all 0.3s ease;
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  --box-shadow-hover: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  color: var(--text-dark);
+  background-color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+  transition: var(--transition);
+}

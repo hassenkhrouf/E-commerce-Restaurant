@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+<br/>
+<div align="center">
+  <img src="https://img.icons8.com/color/120/000000/restaurant-menu.png" alt="Logo">
+  <h1 align="center">E-commerce Restaurant</h1>
+  <p align="center">
+    A premium, modern, responsive restaurant landing page built with React.js!
+    <br/>
+    <a href="#features"><strong>Explore the Features »</strong></a>
+    <br/>
+    <br/>
+  </p>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 About The Project
 
-## Available Scripts
+This project is a high-performance React application designed for a premium restaurant website. It features modern aesthetics, including **Google Fonts (Poppins)**, **subtle glassmorphism**, **soft box shadows**, and **smooth interactive hover effects** that make the foods and buttons pop on screen.
 
-In the project directory, you can run:
+It is completely responsive and showcases essential website sections like a Hero banner, Stats/Numbers, Story/Ingredients, a Food Menu layout, Testimonial sliders, and an FAQ block.
 
-### `npm start`
+### 🌟 Key Features
+* **Modern UI/UX:** Clean design powered by custom interactive CSS.
+* **Responsive Layout:** Works perfectly on desktop, tablet, and mobile (using React-Bootstrap).
+* **Component-Based Architecture:** Organized React components for clean, scalable code.
+* **Interactive Elements:** Includes statistics counters, carousel sliders, and styled forms (with SweetAlert2 notifications).
+* **Optimized and Accessible:** Lint-compliant features with accessible markup.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🛠 Built With
+* [React.js](https://reactjs.org/)
+* [React-Bootstrap](https://react-bootstrap.github.io/)
+* [Vanilla CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [SweetAlert2](https://sweetalert2.github.io/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running, follow these simple steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You need `npm` or `yarn` installed globally on your machine.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
+   ```sh
+   git clone https://github.com/hassenkhrouf/E-commerce-Restaurant.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd E-commerce-Restaurant
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Start the development server
+   ```sh
+   npm start
+   ```
 
-### `npm run eject`
+The application will be accessible at `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎨 Design Enhancements
+Recent updates include:
+- **Typography:** Migrated entirely to the elegant `Poppins` font.
+- **Micro-interactions:** Buttons now smoothly scale and lift with custom shadows on hover.
+- **Card Styling:** Food display cards feature soft edges, a pristine white background with shadow elevation, and a distinct zoom on interaction.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📄 License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Distributed under the MIT License. Copyright © 2022. Hassen Khrouf. All rights reserved.
